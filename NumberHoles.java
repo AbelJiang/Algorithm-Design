@@ -1,5 +1,3 @@
-import java.util.HashSet;
-
 public class NumberHoles{
     public static void main(String[] args){
         System.out.println("Holes in this string: "+ countHoles(args[0]));
