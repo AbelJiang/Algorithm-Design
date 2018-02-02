@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class ReverseList{
     public static void main(String[] args){
         SinglyLinkedList<Integer> sll=new SinglyLinkedList<>(new Integer[]{1,2,3,4,5,6,7});
@@ -7,7 +9,7 @@ public class ReverseList{
 }
 
 class SinglyLinkedList<T>{
-    static class Node<T>{
+    private static class Node<T>{
         private T value;
         private Node<T> next;
         public Node(){
