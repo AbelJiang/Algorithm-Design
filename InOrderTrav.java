@@ -1,5 +1,5 @@
 import java.util.*;
-public class PreorderTrav{
+public class InOrderTrav{
     public static void main(String[] args){
         ArrayList<Node<Integer>> nodeArr=new ArrayList<>();
         for(int i=0;i<20;i++){
